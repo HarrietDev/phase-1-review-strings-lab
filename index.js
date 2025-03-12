@@ -1,4 +1,4 @@
-const currentUser = " Harriet Chepng\'eno"
-const welcomeMessage = "Welcome to Flatbook, Harriet Chepng\'eno!";
-const excitedWelcomeMessage = " WELCOME TO FLATBOOK, HARRIET CHEPNG\'ENO!";
-const shortGreeting = "Welcome, Harriet!";
+const currentUser = " Harriet Chepng'eno"
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+const excitedWelcomeMessage = welcomeMessage .toUpperCase();
+const shortGreeting = `Welcome,${currentUser.slice(0,1)}!`;
